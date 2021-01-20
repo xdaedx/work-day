@@ -39,102 +39,106 @@
     <div class="container">
 
       <!-- Timeblocks go here -->
-      <div class="row schedule-row time-block ">
+
+       <!-- 9am -->
+       <div class="row time-block">
 
         <h5 class="col-1 hour">9AM</h5>
 
-        <p class="col-10 description"></p>
+        <textarea class="col-10 description " id="hour-9" ></textarea>
 
-        <button class="col-1 saveBtn"><i class="fas fa-save text-white fa-2x"></i>
-        </button>
+        <button data-hour= "hour-9" class=" saveBtn col-1"><i class="fa fa-calendar-plus fa-2x"></i></button>
 
       </div>
-      <div class="row schedule-row time-block ">
+
+      <!-- 10am -->
+      <div class="row time-block">
 
         <h5 class="col-1 hour">10AM</h5>
 
-        <p class="col-10 description"></p>
+        <textarea class="col-10 description" id="hour-10"></textarea>
 
-        <button class="col-1 saveBtn"><i class="fas fa-save text-white fa-2x"></i>
-        </button>
+        <button data-hour= "hour-10"class=" saveBtn col-1"><i class="fa fa-calendar-plus fa-2x"></i></button>
 
       </div>
 
-      <div class="row schedule-row time-block ">
+      <!-- 11am -->
+      <div class= "row time-block">
 
         <h5 class="col-1 hour">11AM</h5>
 
-        <p class="col-10 description"></p>
+        <textarea class="col-10 description"  id="hour-11"></textarea>
 
-        <button class="col-1 saveBtn"><i class="fas fa-save text-white fa-2x"></i>
-        </button>
+        <button data-hour= "hour-11"class=" saveBtn col-1"><i class="fa fa-calendar-plus fa-2x"></i></button>
 
       </div>
 
-      <div class="row schedule-row time-block ">
+      <!-- 12pm -->
+      <div class="row time-block">
 
         <h5 class="col-1 hour">12PM</h5>
 
-        <p class="col-10 description"></p>
+        <textarea class="col-10 description" id="hour-12"></textarea>
 
-        <button class="col-1 saveBtn"><i class="fas fa-save text-white fa-2x"></i>
-        </button>
-
-      </div>
-
-      <div class="row schedule-row time-block ">
-
-        <h5 class="col-1 hour">1PM</h5>
-
-        <p class="col-10 description"></p>
-
-        <button class="col-1 saveBtn"><i class="fas fa-save text-white fa-2x"></i>
-        </button>
+        <button data-hour= "hour-12" class=" saveBtn col-1"><i class="fa fa-calendar-plus fa-2x"></i></button>
 
       </div>
 
-      <div class="row schedule-row time-block ">
+      <!-- 1pm -->
+      <div class="row time-block">
+
+        <h5 class="col-1 hour ">1PM</h5>
+
+        <textarea class="col-10 description" id="hour-13" ></textarea>
+
+        <button data-hour= "hour-13" class=" saveBtn col-1"><i class="fa fa-calendar-plus fa-2x"></i></button>
+
+      </div>
+
+      <!-- 2pm -->
+      <div class="row time-block">
 
         <h5 class="col-1 hour">2PM</h5>
 
-        <p class="col-10 description"></p>
+        <textarea class="col-10 description" id="hour-14"></textarea>
 
-        <button class="col-1 saveBtn"><i class="fas fa-save text-white fa-2x"></i>
-        </button>
+        <button data-hour= "hour-14" class=" saveBtn col-1"><i class="fa fa-calendar-plus fa-2x"></i></button>
 
       </div>
 
-      <div class="row schedule-row time-block ">
+      <!-- 3pm -->
+      <div class="row time-block">
 
         <h5 class="col-1 hour">3PM</h5>
 
-        <p class="col-10 description"></p>
+        <textarea class="col-10 description" id="hour-15"></textarea>
 
-        <button class="col-1 saveBtn"><i class="fas fa-save text-white fa-2x"></i>
-        </button>
+        <button data-hour= "hour-15" class=" saveBtn col-1"><i class="fa fa-calendar-plus fa-2x"></i></button>
 
       </div>
 
-      <div class="row schedule-row time-block ">
+      <!-- 4pm -->
+      <div class="row time-block">
 
         <h5 class="col-1 hour">4PM</h5>
 
-        <p class="col-10 description"></p>
+        <textarea class="col-10 description"  id="hour-16"></textarea>
 
-        <button class="col-1 saveBtn"><i class="fas fa-save text-white fa-2x"></i>
-        </button>
+        <button data-hour= "hour-16" class=" saveBtn col-1"><i class="fa fa-calendar-plus fa-2x"></i></button>
 
       </div>
 
-      <div class="row schedule-row time-block ">
+      <!-- 5pm -->
+      <div class="row time-block">
 
-        <h5 class="col-1 hour">5PM</h5>
+        <h5 class="col-1 hour h-100">5PM</h5>
 
-        <p class="col-10 description"></p>
+        <textarea class="col-10 description"  id="hour-17"></textarea>
 
-        <button class="col-1 saveBtn"><i class="fas fa-save text-white fa-2x"></i>
-        </button>
+        <button data-hour= "hour-17" class=" saveBtn col-1"><i class="fa fa-calendar-plus fa-2x"></i></button>
+
       </div>
+
 
     </div>
 
@@ -143,5 +147,9 @@
 
     <!-- MomentJS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    
+    <!-- JS -->
+      <script src="./script.js"></script>
+
   </body>
 </html>
